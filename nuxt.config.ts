@@ -23,6 +23,13 @@ export default defineNuxtConfig({
       // "Inter": [100,200,300,400,500,600,700],
       // Lato: [100,200,300,400,500,600,700],
     },
+    subsets: ['latin'],
+    display: 'swap',
+    prefetch: false,
+    preconnect: false,
+    preload: false,
+    download: true,
+    base64: false,
  
     // @ts-ignore
     // "Open Sans": true,
