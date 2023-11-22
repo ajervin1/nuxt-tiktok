@@ -11,8 +11,21 @@ export default defineNuxtConfig({
   //   }
   // },
   devtools: { enabled: false },
-  modules: ["@pinia/nuxt", '@nuxtjs/tailwindcss',  ],
+  modules: ["@nuxtjs/google-fonts", "@pinia/nuxt", '@nuxtjs/tailwindcss',  ],
   // @ts-ignore
-
+  googleFonts: {
+    families: {
+      // "Open Sans": [100,200,300,400,500,600,700],
+      "Montserrat": [100,200,300,400,500,600,700],
+      // "Roboto": [100,200,300,400,500,600,700],
+      // "Poppins": [100,200,300,400,500,600,700],
+      // "Raleway": [100,200,300,400,500,600,700],
+      // "Inter": [100,200,300,400,500,600,700],
+      // Lato: [100,200,300,400,500,600,700],
+    },
+ 
+    // @ts-ignore
+    // "Open Sans": true,
+  }
 
 })
