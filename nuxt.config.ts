@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   //   }
   // },
   devtools: { enabled: false },
-  modules: ["@nuxtjs/google-fonts", "@pinia/nuxt", '@nuxtjs/tailwindcss',  ],
+  modules: [ "@pinia/nuxt", '@nuxtjs/tailwindcss', "@nuxtjs/google-fonts"  ],
   // @ts-ignore
   googleFonts: {
     families: {
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       // "Poppins": [100,200,300,400,500,600,700],
       // "Raleway": [100,200,300,400,500,600,700],
       // "Inter": [100,200,300,400,500,600,700],
-      Lato: [500,600,700],
+      Lato: [100,200,300,400,500,600,700],
     },
     subsets: ['latin'],
     display: 'swap',
