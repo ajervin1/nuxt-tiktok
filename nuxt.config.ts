@@ -14,35 +14,8 @@ export default defineNuxtConfig({
   //   }
   // },
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts','nuxt-icon', '@pinia/nuxt' ],
+  modules: ['@nuxtjs/tailwindcss' ],
   // @ts-ignore
-  app: {
-    head: {
-      title: "TikTok Clone",
-      meta: [
-        {name: "description", content: "Everything about nuext 3"}
-      ],
-      link: [
-      
-      ],
-      htmlAttrs: {
-        "data-theme": 'light',
-      },
-      
-    }
-  },
-  googleFonts: {
-    families: {
-      // "Open Sans": [100,200,300,400,500,600,700],
-      "Montserrat": [100,200,300,400,500,600,700],
-      // "Roboto": [100,200,300,400,500,600,700],
-      // "Poppins": [100,200,300,400,500,600,700],
-      // "Raleway": [100,200,300,400,500,600,700],
-      // "Inter": [100,200,300,400,500,600,700],
-      // Lato: [100,200,300,400,500,600,700],
-    },
-    display: 'swap'
-    // @ts-ignore
-    // "Open Sans": true,
-  }
+
+
 })

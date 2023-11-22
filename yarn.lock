@@ -992,7 +992,7 @@
     google-fonts-helper "^3.3.1"
     pathe "^1.1.1"
 
-"@nuxtjs/tailwindcss@^6.9.4":
+"@nuxtjs/tailwindcss@^6.10.0":
   version "6.10.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.10.0.tgz#148616ace4a5afb333a8e649a41d9408caad099d"
   integrity sha512-frPkCDKTJsiMDuAYqH5GgtBWexTAmHqFTjTi8DBhGIhZo3C4RxpKH5xnTW6rKMz37Zicre6p+tmkZjKQDl09pQ==
