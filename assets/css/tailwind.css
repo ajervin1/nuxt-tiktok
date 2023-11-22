@@ -19,9 +19,8 @@
 	max-width: 90%;
 }
 
-html {
-	font-family: "Montserrat";
-}
+
+
 /* Change BG Color */
 :root, [date-theme] {
 	/*background-color: rgb(252, 249, 249);*/
