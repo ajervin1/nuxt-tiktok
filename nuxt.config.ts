@@ -4,9 +4,6 @@
 // @ts-ignore
 export default defineNuxtConfig({
   
-  typescript: {
-    strict: false,
-  },
   // watchers: {
   //   webpack: {
   //     aggregateTimeout: 300,
@@ -14,7 +11,7 @@ export default defineNuxtConfig({
   //   }
   // },
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss' ],
+  modules: ['@nuxtjs/tailwindcss',  ],
   // @ts-ignore
 
 

@@ -1,8 +1,6 @@
 module.exports = {
 	cssPath: '~/assets/css/tailwind.css',
-	corePlugins: {
-		aspectRatio: false,
-	},
+	plugins: [require("daisyui")],
 	theme: {
 		screens: {
 			"2xl": {'max': '1535px'},
