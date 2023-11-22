@@ -21,15 +21,7 @@ module.exports = {
 			// => @media (max-width: 639px) { ... }
 		},
 	},
-	daisyui: {
-		base: true,
-		styled: true,
-		utils: true,
-		themes: ["light", "dark", "cupcake", 'dracula'],
-	},
-	plugins: [
-		require('daisyui'),
-	],
+
 
 
 

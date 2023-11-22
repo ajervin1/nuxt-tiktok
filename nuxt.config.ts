@@ -3,6 +3,7 @@
 // @ts-ignore
 // @ts-ignore
 export default defineNuxtConfig({
+  
   typescript: {
     strict: false,
   },
